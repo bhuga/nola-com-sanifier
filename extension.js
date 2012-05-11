@@ -11,5 +11,10 @@
   $(window).mousemove(function() {
     $('.adv-open').removeClass('adv-open');
   });
+  
+  // remove racism
+  $(document).on('load', function() {
+    $('.comment').remove();
+  });
 
 }).call(this)
