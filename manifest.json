@@ -1,0 +1,18 @@
+{
+  "name": "Nola.com sanitizer",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Nola.com does not have to burn your retinas",
+  "browser_action": {
+  },
+  "content_scripts": [{
+    "matches": ["http://nola.com/*","http://www.nola.com/*"],
+    "css":["styles.css"],
+    "js": ["jquery-1.7.1.min.js","extension.js"]
+  }],
+  "permissions": [
+    "http://nola.com/",
+    "http://www.nola.com/"
+  ]
+}
+

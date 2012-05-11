@@ -1,0 +1,15 @@
+#adv-banner,
+#adv-banner #adv-condensed,
+.module-tabs a:link.active,
+.module-tabs a:visited.active,
+.module-block,
+#footer,
+.river-end,
+#content header,
+#news-river .river-promo-inner,
+.river-feature-box,
+.selector,
+.selector.expanded:hover,
+aside section {
+  background-color: #E7CE7E !important;
+}
