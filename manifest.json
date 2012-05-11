@@ -6,13 +6,16 @@
   "browser_action": {
   },
   "content_scripts": [{
-    "matches": ["http://nola.com/*","http://www.nola.com/*"],
+    "matches": ["http://*.nola.com/*","http://nola.com/*",
+                "https://nola.com/*","https://*.nola.com/*"],
     "css":["styles.css"],
     "js": ["jquery-1.7.1.min.js","extension.js"]
   }],
   "permissions": [
-    "http://nola.com/",
-    "http://www.nola.com/"
+    "http://*.nola.com/",
+    "http://*.nola.com/",
+    "https://nola.com/",
+    "https://nola.com/"
   ]
 }
 

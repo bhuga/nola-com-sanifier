@@ -10,6 +10,8 @@
 .river-feature-box,
 .selector,
 .selector.expanded:hover,
+#banner,
+#banner.nola,
 aside section {
   background-color: #E7CE7E !important;
 }
